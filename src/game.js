@@ -31,7 +31,7 @@ async function play(ctx) {
     return
   }
   const round = payout.calculate(bet)
-  user.balance = Math.round((user.balance - bet + round.win) * 100) / 100
+  user.balance = Math.round((user.balance - bet + round.win) * 1000) / 1000
   ctx.body = { user, round }
 }
 
