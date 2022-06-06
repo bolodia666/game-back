@@ -40,11 +40,11 @@ curl -X POST <host>/game/init
 }
 ```
 
-### Play round within session (place bet)
+### Play round within session (place bet=1)
 ```bash
 curl -X POST <host>/game/play
    -H 'Content-Type: application/json'
-   -d '{"sessionId": "f18e530e-1d83-4c8c-aeef-76548d27f62c"}'
+   -d '{"sessionId": "7898a5de-3b26-4d13-a3c5-5326658615e9"}'
 ```
 ```javascript
 {
