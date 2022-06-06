@@ -1,8 +1,7 @@
 # Horserace demo server
-odd = wins
-even = lose
+odd = wins, even = lose
 
-## install and start
+## Install and start
 ```bash
 npm install
 PORT=80 node src/index.js
