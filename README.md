@@ -1,5 +1,6 @@
 # Horserace demo server
 ```bash
+npm install
 PORT=80 node src/index.js
 ```
 
