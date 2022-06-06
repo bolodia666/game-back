@@ -4,8 +4,7 @@ const DB = {
 }
 
 function set(rtp) {
-  const margin = (100 - rtp) / 100
-  DB.mult = 1 + (1 - margin / 2)
+  DB.mult = 1 + rtp / 100
   DB.rtp = rtp
 }
 
