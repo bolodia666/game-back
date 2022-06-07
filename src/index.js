@@ -1,7 +1,7 @@
 const server = require('./server')
-const game = require('./game')
+const session = require('./session')
 const settings = require('./settings')
 
-server.expose(game.routes)
+server.expose(session.routes)
 server.expose(settings.routes)
 server.start()

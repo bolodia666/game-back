@@ -36,8 +36,8 @@ async function play(ctx) {
 }
 
 const routes = [
-  route.post('/game/init', init),
-  route.post('/game/play', play),
+  route.post('/session/init', init),
+  route.post('/session/play', play),
 ]
 
 module.exports = { routes }

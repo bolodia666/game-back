@@ -30,7 +30,7 @@ ok
 
 ### Init game session
 ```bash
-curl -X POST <host>/game/init
+curl -X POST <host>/session/init
    -H 'Content-Type: application/json'
    -d '{}'
 ```
@@ -45,7 +45,7 @@ curl -X POST <host>/game/init
 
 ### Play round within session (place bet=1)
 ```bash
-curl -X POST <host>/game/play
+curl -X POST <host>/session/play
    -H 'Content-Type: application/json'
    -d '{"sessionId": "7898a5de-3b26-4d13-a3c5-5326658615e9"}'
 ```
