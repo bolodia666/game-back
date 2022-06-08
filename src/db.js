@@ -4,8 +4,8 @@ const DB = {
 }
 
 function set(rtp) {
-  DB.mult = 1 + rtp / 100
   DB.rtp = rtp
+  DB.mult = rtp * 2 / 100
 }
 
 function get() {
